@@ -2,12 +2,12 @@
 /* Put the import-statement at the very top of the CSS file */
 /* Other stuff here... */
 body {
-    color: #8c0a9b;
-    background-color: #929797;
+    color: #000000;
+    background-color: #cb8600;
 }
 
 nav ul li a {
-    color: #fafafa;
+    color: #000000;
 }
 
 h1, h2, h3 {
