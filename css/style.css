@@ -17,3 +17,59 @@ h1, h2, h3 {
 p {
     font-family: 'Roboto', sans-serif;
 }
+
+h1.formhead {
+    text-align: center;
+}
+
+form {
+    margin: 30px auto;
+    width: 400px;
+
+    padding: 1em;
+    border: 1px solid #000000;
+    border-radius: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+label::after {
+    content:":";
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #4a14d4;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button {
+    padding-left: 325px;
+}
